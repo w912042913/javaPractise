@@ -1,4 +1,4 @@
-package Student;
+package Student.utils;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import javax.sql.DataSource;
 import java.io.IOException;

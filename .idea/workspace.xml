@@ -41,9 +41,9 @@
       <recent name="D:\GitHub\javapractise\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="Alpha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Alpha" />
+  <component name="RunManager" selected="Application.Demo1">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Demo1" />
       <module name="javapractise" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Sub" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.main" />
       <module name="javapractise" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.main" />
+    <configuration name="mainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Student.mainStudent" />
       <module name="javapractise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="Student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.mainStudent" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.Alpha" />
-        <item itemvalue="Application.Sub" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +139,9 @@
       <workItem from="1597212541612" duration="826000" />
       <workItem from="1597216349520" duration="5035000" />
       <workItem from="1597226811295" duration="6454000" />
+      <workItem from="1597316733723" duration="4217000" />
+      <workItem from="1597366024353" duration="3294000" />
+      <workItem from="1597371442939" duration="1776000" />
     </task>
     <servers />
   </component>
@@ -146,49 +149,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1597234017253">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1597319056519">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597234017253" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1597231361165">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597319056519" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597317152630">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597231361165" />
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1597234125427">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1597317152630" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1597367439780">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597234125427" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1597234125425">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597367439780" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597369861923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597234125425" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1597234125425">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597369861923" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1597369861923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597234125425" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1597234125426">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597369861923" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1597369861923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597234125426" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1597234125427">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597369861923" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1597369861923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597234125427" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1597234125427">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597369861923" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1597320962358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597234125427" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1597234125427">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597320962358" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1597320962358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597234125427" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1597234125427">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597320962358" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1597320962358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597234125427" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1597227098910">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597320962358" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1597320962358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1597227098910" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597320962358" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1597371456071">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1597371456071" />
   </component>
 </project>
